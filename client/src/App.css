@@ -1,15 +1,23 @@
-/* body {
+body {
   font-family: Arial, sans-serif;
   margin: 20px;
   padding: 20px;
-  background-color: #035531;
+  background-color:#ffffcc;
+  
 }
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 500px;
+  background: #540a0a;
+  /* padding-left: 20px; */
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  border-radius: 20px;
+ 
 }
 
 .heading-container {
@@ -20,13 +28,12 @@
 }
 
 .heading {
-  font-size: 24px;
   font-weight: bold;
-  color: #ffffff;
-  font-size: 60px;
+  color: #E8A317;
+  font-size: 48px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 100px;
-  height: 300px;
+  height: 55px;
 
 }
 
@@ -41,110 +48,68 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  
 }
 
 .input {
-  width: 200px;
+  width: 800px;
   height: 30px;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 10px;
+  color: #000000;
+  background-color: #FFFFCC;
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
 }
 
 .button-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
+  
 }
 
 .button {
-  width: 120px;
-  height: 30px;
-  background-color: #4caf50;
-  color: white;
+  width: 180px;
+  height: 45px;
+  background-color: #E8A317;
+  color: #000000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-left: 10px;
+  margin-top: 15px;
 }
 
 .button:disabled {
-  background-color: #cccccc;
+  background-color: #FFFFCC;
   cursor: not-allowed;
 }
 
 .button:disabled:hover {
-  background-color: #cccccc;
-  color: white;
+  background-color: #FFFFCC;
+  color: #FFFFCC;
+  
 }
 
 .button:hover {
-  background-color: #45a049;
+  background-color: #fffccc;
 }
 
 .error {
-  color: red;
+  color: #fd0909;
   margin-bottom: 10px;
 }
 
 .success {
-  color: green;
+  color: rgb(7, 139, 7);
   margin-bottom: 10px;
 }
 
 .view-container {
   margin-top: 20px;
-} */
-
-
-/* Add your custom CSS styles here */
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
-h1 {
-  text-align: center;
-  margin: 20px 0;
-}
-
-input {
-  display: block;
-  margin-bottom: 10px;
-  padding: 10px;
-  width: 300px;
-}
-
-button {
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  cursor: pointer;
-  margin-right: 5px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-li button {
-  margin-left: 10px;
-}
-
-li:last-child {
-  margin-bottom: 0;
-}

@@ -119,12 +119,22 @@ function App() {
 
   return (
     <body>
+      <div>
     <div className="container">
       <div className="heading-container">
         <h1 className="heading">Phone Book</h1>
       </div>
       <div className="form-container">
         <div className="input-container">
+
+        {/* <input
+            type="text"
+            value={id}
+            onChange={(e) => setId(e.target.value)}
+            placeholder="ID"
+            className="input"
+          /> */}
+
           <input
             type="text"
             value={name}
@@ -139,8 +149,9 @@ function App() {
             placeholder="Phone"
             className="input"
           />
+         
           <div className="button-container">
-            <button className="button" onClick={addNewNumber} style={{marginBottom: '40px'}}>
+            <button className="button" onClick={addNewNumber} style={{marginBottom: '10px'}}>
               Add Phone
             </button>
           </div>
@@ -153,7 +164,13 @@ function App() {
             placeholder="ID"
             className="input"
           />
+
           <div className="button-container">
+
+          {/* <button className="button" onClick={addNewNumber} style={{marginBottom: '40px'}}>
+              Add Phone
+            </button> */}
+
             <button className="button" onClick={updateNumber}>
               Update Phone
             </button>
@@ -173,13 +190,16 @@ function App() {
           {viewPhone && <p>Viewed Phone: {viewPhone}</p>}
         </div>
         <div className="button-container">
-          <button className="button" onClick={clearForm} style={{marginTop: '40px'}}>
+          <button className="button" onClick={clearForm} style={{marginTop: '10px'}}>
             Clear
           </button>
         </div>
       </div>
     </div>
+    </div>
+    
     </body>
+    
   );
 }
 
